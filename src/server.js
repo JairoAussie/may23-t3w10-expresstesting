@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.get("/", (request, response) => {
     response.json({
-        message: "Hello class"
+        message: "Hello world!"
     });
 });
 
